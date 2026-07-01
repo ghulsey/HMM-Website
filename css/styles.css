@@ -265,7 +265,7 @@ p:last-child { margin-bottom: 0; }
 .hero__logo img {
   width: 180px;
   height: 180px;
-  object-fit: contain;
+  object-fit: cover;
   margin: 0 auto;
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(109,194,52,0.5), 0 0 0 14px rgba(109,194,52,0.08), 0 8px 40px rgba(0,0,0,0.3);
@@ -804,7 +804,7 @@ p:last-child { margin-bottom: 0; }
 .footer__logo {
   width: 80px;
   height: 80px;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 50%;
   margin-bottom: 1.25rem;
   box-shadow: 0 0 0 2px rgba(255,255,255,0.15), 0 4px 16px rgba(0,0,0,0.2);
