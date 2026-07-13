@@ -227,6 +227,10 @@ p:last-child { margin-bottom: 0; }
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(109,194,52,0.4);
 }
+.btn--small {
+  padding: 0.5rem 1.3rem;
+  font-size: 0.72rem;
+}
 .btn--outline {
   background: transparent;
   color: var(--white);
@@ -853,6 +857,8 @@ p:last-child { margin-bottom: 0; }
 .footer__contact p { color: rgba(255,255,255,0.65); font-size: 0.97rem; line-height: 1; margin-bottom: 0.9rem; }
 .footer__contact a { color: rgba(255,255,255,0.65); transition: var(--transition); }
 .footer__contact a:hover { color: var(--lime-green); }
+.footer__contact .btn, .footer__contact .btn:hover { color: var(--white); }
+.footer__cta { display: inline-block; margin-top: 0.3rem; }
 .footer__bottom {
   display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;
 }
